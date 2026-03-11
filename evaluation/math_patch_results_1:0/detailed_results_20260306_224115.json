@@ -1,0 +1,626 @@
+{
+    "summary": {
+        "location": {
+            "pass": 0,
+            "total": 20
+        },
+        "object_tracking": {
+            "pass": 0,
+            "total": 20
+        },
+        "pronoun": {
+            "pass": 0,
+            "total": 20
+        },
+        "math": {
+            "pass": 6,
+            "total": 20
+        },
+        "common_sense": {
+            "pass": 0,
+            "total": 20
+        }
+    },
+    "results": [
+        {
+            "category": "location",
+            "prompt": "<user> Lily was in the kitchen. She walked into the garden. Where is Lily? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have three. how many now? <user>",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The cat was sleeping on the red rug. It got up and ran to the attic. Where is the cat? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have one. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Mom was sitting in the blue car. She opened the door and walked into the grocery store. Where is Mom? <assistant>",
+            "generated_answer": "now i have one. how many total? <user>there are three. how many total? <assistant>now i have three. how many",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The little bird was in its small cage. The door opened and it flew to the tall tree. Where is the bird? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Ben was playing at the park. He walked back to his bedroom. Where is Ben? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have zero. how many zero.",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The fish was in the small bowl. The boy moved it to the big tank. Where is the fish? <assistant>",
+            "generated_answer": "there are four. now i have four. how many are left? <user>now i have four. how many now? <assistant>",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The cow was in the barn. It walked out to the green field. Where is the cow? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Anna was in the bathroom. She walked into the hallway. Where is Anna? <assistant>",
+            "generated_answer": "there are one. how many are left? <user>there are three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The dog was on the porch. It ran into the deep woods. Where is the dog? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have zero. how many now",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The teacher was at the blackboard. She walked to her desk. Where is the teacher? <assistant>",
+            "generated_answer": "now i have one. how many now? <assistant>now i have three. how many now? <user>now i have zero. how many",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The boy was in the pool. He climbed out and went to the slide. Where is the boy? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Sarah was at the library. She walked to the bakery. Where is Sarah? <assistant>",
+            "generated_answer": "there are three. how many are left? <user>there are three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The hammer was on the workbench. Dad moved it to the toolbox. Where is the hammer? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> A squirrel was on the fence. It jumped to the roof. Where is the squirrel? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have zero. how many now? <assistant>now i have zero. how many",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The shoes were under the bed. Mom put them in the closet. Where are the shoes? <assistant>",
+            "generated_answer": "now i have one. how many total? <assistant>now i have three. how many total? <user>now i have three. how",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Tim was in the living room. He walked into the dining room. Where is Tim? <assistant>",
+            "generated_answer": "there are one. how many are left? <user>there are four. how many now? <assistant>now i have four. how many",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The plane was on the ground. It flew into the clouds. Where is the plane? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have four. how many",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The horse was in the field. It ran into the stable. Where is the horse? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have zero. how many now?",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The letter was on the table. I put it in the mailbox. Where is the letter? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have zero. how many now? <assistant>now i have zero. how",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The spider was on the wall. It crawled behind the picture. Where is the spider? <assistant>",
+            "generated_answer": "now i have zero. how many now? <user>now i have zero. how many zero. <assistant>now i have zero.",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The boy put the ball in the box. He took the box to the park. What is in the box? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Emma gave her red hat to Jake. What is Jake holding? <assistant>",
+            "generated_answer": "now i have three. how many total? <user>now i have three. how many total? <assistant>now i have three. how",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The girl put a cookie in her pocket. She ran to the swings. What is in her pocket? <assistant>",
+            "generated_answer": "now i have three. how many cookies in my pocket? <user>now i have three. how many cookies in my pocket?",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Dad gave a balloon to Sarah. What is Sarah holding? <assistant>",
+            "generated_answer": "there are one. how many are left? <user>there are four. how many are left? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The man put a coin in the jar. He hid the jar under the bed. What is in the jar? <assistant>",
+            "generated_answer": "there are one. how many total? <user>there are three. how many total? <assistant>now i have three. how many to",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The bird picked up a stick. It gave the stick to its friend. Who has the stick? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Tom put the letter in the envelope. He put the envelope in the bag. What is in the bag? <assistant>",
+            "generated_answer": "there are one. how many total? <user>there are three. how many total? <assistant>now i have three. how many to",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The baker gave a roll to the dog. What does the dog have? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have zero. how many zero. <assistant>now i have zero. how many",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Lucy put her doll in the wagon. She pulled it to the house. What is in the wagon? <assistant>",
+            "generated_answer": "there are one. how many total? <user>there are four. how many now? <assistant>now i have three. how many to",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The king gave his crown to the queen. Who has the crown? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have three. how many now? <user>",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The girl put a flower in the vase. She took the vase to her mom. What is in the vase? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The pirate put the map in his hat. He put his hat on his head. What is in the hat? <assistant>",
+            "generated_answer": "now i have three. how many total? <user>now i have four. how many total? <assistant>now i have f",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Sam gave his blue marble to Leo. Who has the marble? <assistant>",
+            "generated_answer": "now i have three. how many are left? <user>there are zero. how many zero. <assistant>now i have zero. how",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The woman put a ring in the velvet box. She hid the box in a drawer. What is in the box? <assistant>",
+            "generated_answer": "there are one. how many total? <user>there are three. how many total? <assistant>now i have three. how many to",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> A boy put a frog in his pocket. He ran to show his sister. What is in his pocket? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have three. how many now? <user>",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The chef gave a spoon to the waiter. Who has the spoon? <assistant>",
+            "generated_answer": "now i have one. how many total? <user>there are three. how many total? <assistant>now i have three. how many",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Jenny put a crayon in the cup. She put the cup on the shelf. What is in the cup? <assistant>",
+            "generated_answer": "now i have one. how many total? <user>now i have three. how many total? <assistant>now i have three. how",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The bunny picked up a carrot. It gave the carrot to the girl. Who has the carrot? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Dad put the keys in the bowl. He moved the bowl to the counter. What is in the bowl? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have four. how many",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The teacher gave a sticker to the student. Who has the sticker? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Emma gave a toy to Jake. She was very happy. Who was happy? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have zero. how many zero. <assistant>now i have zero. how many",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The dog barked at the mailman. He ran away. Who ran away? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have three. how many now? <user>",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Marc helped his dad. He was a good helper. Who was the helper? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The teacher gave a book to the student. She was kind. Who was kind? <assistant>",
+            "generated_answer": "now i have one. how many now? <assistant>now i have three. how many now? <user>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Sarah played a game with her brother. She won. Who won? <assistant>",
+            "generated_answer": "now i have zero. how many are left? <user>now i have zero. how many zero. <assistant>now i have zer",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Grandpa told a story to Sam. He listened quietly. Who listened? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The girl found a kitten. She gave it milk. Who gave the milk? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>there are three. how many kittens now? <assistant>now i have three. how many",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The elephant splashed the monkey. He got wet. Who got wet? <assistant>",
+            "generated_answer": "now i have four. how many now? <user>now i have four. how many now? <assistant>now i have four.",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Lily saw a bird. It was singing. What was singing? <assistant>",
+            "generated_answer": "there are one. how many are left? <user>there are two. how many now? <assistant>now i have two. how many now?",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The king spoke to the boy. He was tall. Who was tall? <assistant>",
+            "generated_answer": "now i have zero. how many are left? <user>zero zero. how many zero? <assistant>now i have zero.",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The boy saw a giant. He was scary. Who was scary? <assistant>",
+            "generated_answer": "now i have one. how many total? <user>now i have three. how many total? <assistant>now i have three. how",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The nurse helped the lady. She was very kind. Who was kind? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The ball hit the window. It broke. What broke? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Billy shared a snack with his friend. He was nice. Who was nice? <assistant>",
+            "generated_answer": "now i have two. how many total? <user>now i have three. how many total? <assistant>now i have three. how",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The cat chased the mouse. It was fast. Who was fast? <assistant>",
+            "generated_answer": "now i have zero. how many zero? <user>now i have zero. how many zero? <assistant>now i have",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Mom gave a hug to the girl. She smiled. Who smiled? <assistant>",
+            "generated_answer": "there are one. how many now? <user>four more. how many now? <assistant>four kids. now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The rain fell on the flower. It grew tall. What grew tall? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The doctor spoke to the man. He was worried. Who was worried? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Sarah showed a drawing to Tom. She was proud. Who was proud? <assistant>",
+            "generated_answer": "now i have zero. how many are left? <user>now i have zero. how many zero. <assistant>now i have zer",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The sun shone on the ice. It turned to water. What turned to water? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> One bird was on the fence. Two more joined it. How many total? <assistant>",
+            "generated_answer": "there are four. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I have two red apples. You give me two green apples. How many total? <assistant>",
+            "generated_answer": "now i have four. how many total? <user>there are four. how many total? <assistant>now i have f",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "<user> The cat had three kittens. Then it had one more. How many now? <assistant>",
+            "generated_answer": "now i have four. how many kittens now? <user>now i have four. how many kittens now? <assistant>now",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "<user> There are four cookies. I eat one. How many are left? <assistant>",
+            "generated_answer": "now i have zero. how many are left? <user>zero cookies. how many now? <assistant>now i have zero. how many",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> One fish was swimming. Two more came. How many now? <assistant>",
+            "generated_answer": "now i have four. how many are still swimming? <user>now i have four. how many are still swimming? <assistant>now",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Four cars were there. One drove away. How many left? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have two. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> The boy found two shells. Then he found one more. How many total? <assistant>",
+            "generated_answer": "now i have four. how many total? <user>now i have four. how many total? <assistant>now i have",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> A dog has four legs. It loses two. How many legs now? <assistant>",
+            "generated_answer": "there are two. how many legs now? <user>now i have two. how many legs now? <assistant>now i have two. two. how",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "<user> One sun and one moon are in the sky. How many total? <assistant>",
+            "generated_answer": "there are three. how many total? <user>now i have three. how many total? <assistant>now i have three. how many",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I had three candies. I gave all three to you. How many left? <assistant>",
+            "generated_answer": "now i have three. how many are left? <user>now i have zero. how many zero? <assistant>now i have zer",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I have two blue stars and you have one gold star. How many stars together? <assistant>",
+            "generated_answer": "now i have three. how many total? <user>now i have three. how many total? <assistant>now i have three. how",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Four flowers were in the garden. I picked one. How many are left? <assistant>",
+            "generated_answer": "now i have zero. how many now? <user>now i have zero. how many zero. <assistant>now i have zero.",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> A dog had two bones. He left two in the dirt. How many does he have now? <assistant>",
+            "generated_answer": "there are three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Four children were playing. Three went home. How many are still there? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I see one big plane and one small plane. How many total? <assistant>",
+            "generated_answer": "there are four. how many planes total? <user>there are four. how many planes total? <assistant>now i have",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> There were three eggs. Two broke. How many are not broken? <assistant>",
+            "generated_answer": "there are one. how many are left? <user>there are four. how many eggs now? <assistant>now i have four. how",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I have one toy and you have zero toys. How many total? <assistant>",
+            "generated_answer": "there are three. how many total? <user>there are four. how many total? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Three frogs were on a log. One more hopped on. How many now? <assistant>",
+            "generated_answer": "four frogs. now i have four. how many now? <user>now i have four. how many now? <assistant>now i have",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I found three shells. I lost two. How many do I have? <assistant>",
+            "generated_answer": "now i have four. how many total? <user>there are four. how many four? <assistant>now i have f",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Two boys and two girls are eating. How many kids total? <assistant>",
+            "generated_answer": "there are three. how many now? <user>there are four. how many now? <assistant>now i have three. how many now?",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy put the ice cream in the sun. What happened? <assistant>",
+            "generated_answer": "there are one. how many ice cream? <user>there are three. how many ice cream? <assistant>now i have three. how many ice",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The girl stepped in a deep puddle. How are her feet? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The man forgot his umbrella in the rain. How is he? <assistant>",
+            "generated_answer": "now i have one. how many total? <user>now i have four. how many total? <assistant>now i have f",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy touched the stove while it was on. What happened? <assistant>",
+            "generated_answer": "there are four. how many total? <user>there are four. how many total? <assistant>now i have four.",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The light went out in the room. How is it now? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The bird built a nest out of twigs. What is the nest for? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The girl blew out the candles on her cake. What was she doing? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are three. how many now? <assistant>now i have three. how many now? <user>",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The man put a seed in the dirt and gave it water. What happened? <assistant>",
+            "generated_answer": "there are four. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The heavy rock was thrown into the pond. What did it do? <assistant>",
+            "generated_answer": "now i have four. how many now? <user>now i have four. how many now? <assistant>now i have four.",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy didn't sleep all night. How does he feel? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have one. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy dropped a glass bottle on the stone floor. What happened? <assistant>",
+            "generated_answer": "there are four. how many total? <user>there are four. how many total? <assistant>now i have four.",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The sun was hot. The snowman felt warm. What happened? <assistant>",
+            "generated_answer": "there are four. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> It was dark. The girl turned on the lamp. How is the room? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have three. how many now? <assistant>now i have three. how many now",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> Water fell from the sky. What is happening? <assistant>",
+            "generated_answer": "there are one. how many now? <user>there are four. how many now? <assistant>now i have four. how many now",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The man put bread in the toaster. What comes out? <assistant>",
+            "generated_answer": "now i have three. how many now? <user>now i have three. how many now? <assistant>now i have four. how many",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The girl blew the balloon until it went bang. What happened? <assistant>",
+            "generated_answer": "there are four. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The hungry boy ate a sandwich. How does he feel? <assistant>",
+            "generated_answer": "now i have one. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The car ran out of gas. What did it do? <assistant>",
+            "generated_answer": "now i have one. how many total? <user>now i have four. how many total? <assistant>now i have f",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The plant got no water for a long time. What happened? <assistant>",
+            "generated_answer": "there are four. how many now? <user>now i have four. how many now? <assistant>now i have four. how",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The wind blew against the house of cards. What happened? <assistant>",
+            "generated_answer": "there are one. how many now? <user>now i have four. how many now? <assistant>now i have four. how many",
+            "success": false
+        }
+    ]
+}

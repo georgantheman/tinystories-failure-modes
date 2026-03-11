@@ -1,0 +1,56 @@
+{
+    "summary": {
+        "location": {
+            "pass": 1,
+            "total": 1
+        },
+        "object_tracking": {
+            "pass": 1,
+            "total": 1
+        },
+        "pronoun": {
+            "pass": 1,
+            "total": 1
+        },
+        "math": {
+            "pass": 0,
+            "total": 1
+        },
+        "constraint": {
+            "pass": 0,
+            "total": 1
+        }
+    },
+    "results": [
+        {
+            "category": "location",
+            "prompt": "Lily was in the kitchen. She walked into the garden. Where is Lily?",
+            "generated": "Lily was in the kitchen. She walked into the garden. Where is Lily? she was drawing, she saw a big cake on the table. It had bright colors and sparkles. She liked the smell of it. One day, Lily decided to go outside with her mom. She wanted to make soup. She walked to the kitchen and found some carrots, and some eggs in a bowl. She picked out a spoon and a purple knife. She cut the soup in the pot and put it on the plate. When she took the spoon to the",
+            "success": true
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "The boy put the ball in the box. He took the box to the park. What is in the box?",
+            "generated": "The boy put the ball in the box. He took the box to the park. What is in the box? to be careful about it. One day he heard a strange noise. He looked around and saw something sparkly - a wish! The boy opened it and found a match! He started to laugh. He put the box on the shelf. He laughed and ran off to the cop. He was so excited and ran to tell all his friends. They all said it was lovely. They all smiled and thought it was",
+            "success": true
+        },
+        {
+            "category": "pronoun",
+            "prompt": "Emma gave a toy to Jake. She was very happy. Who was happy?",
+            "generated": "Emma gave a toy to Jake. She was very happy. Who was happy? she played with her toy cars. She was even more lovely than her stuffed animals. One day, something amazing happened. Her toy car got lost from the edge of the house. It was full of different colors and lights. It was also a big, sparkly toy. It was shiny and glittery that no one should say goodbye. Emma kept the toy for a long time and everyone said goodbye. She never gave up. She told her friends and they did each other",
+            "success": true
+        },
+        {
+            "category": "math",
+            "prompt": "There was one bird on the fence. Two more birds flew down. How many birds are there now?",
+            "generated": "There was one bird on the fence. Two more birds flew down. How many birds are there now? a little girl and one who was walking through the grass. Suddenly, the bird saw a small green leaf. She had never seen a leaf before. The bird flew away, but the little girl was so excited. She asked her mom if they could take a closer look. Her mom said yes, so she said yes. They watched the bug crawl through the garden. The little girl was so excited! She couldn't believe her eyes. She could feel the",
+            "success": false
+        },
+        {
+            "category": "constraint",
+            "prompt": "Tell a short story about a dog. Do not use the word 'cat'. Story:",
+            "generated": "Tell a short story about a dog. Do not use the word 'cat'. Story: playing in the park, he would chase his bone and play with it. One day, Tell and her friends were playing in the park. Tell had a plan. Tell ran to the slide. They started jumping and was feeling happy when he felt something very important. Tell said, \"I love to play with my bone, Max. Tell was winding the ball so I don't want to",
+            "success": false
+        }
+    ]
+}

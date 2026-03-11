@@ -1,0 +1,6 @@
+Category,Pass,Total,Accuracy %
+location,3,20,15.00
+object_tracking,4,20,20.00
+pronoun,2,20,10.00
+math,0,20,0.00
+common_sense,4,20,20.00

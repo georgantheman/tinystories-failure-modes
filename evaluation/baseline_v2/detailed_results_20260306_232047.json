@@ -1,0 +1,626 @@
+{
+    "summary": {
+        "location": {
+            "pass": 3,
+            "total": 20
+        },
+        "object_tracking": {
+            "pass": 4,
+            "total": 20
+        },
+        "pronoun": {
+            "pass": 1,
+            "total": 20
+        },
+        "math": {
+            "pass": 0,
+            "total": 20
+        },
+        "common_sense": {
+            "pass": 3,
+            "total": 20
+        }
+    },
+    "results": [
+        {
+            "category": "location",
+            "prompt": "<user> Lily was in the kitchen. She walked into the garden. Where is Lily? <assistant>",
+            "generated_answer": "i looked under the bed! it's not there! <user>i looked under the bed! it's not there! <assistant>oh no! i was",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The cat was sleeping on the red rug. It got up and ran to the attic. Where is the cat? <assistant>",
+            "generated_answer": "i looked and looked, but the cat was hiding! <user>i looked and looked, but the cat was hiding! <assistant>maybe the cat",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Mom was sitting in the blue car. She opened the door and walked into the grocery store. Where is Mom? <assistant>",
+            "generated_answer": "i was playing with my toys! they're so fun! <user>i wanted to play with the toys! but mom said we have to go",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The little bird was in its small cage. The door opened and it flew to the tall tree. Where is the bird? <assistant>",
+            "generated_answer": "i don't know! i want to see the birds! <user>the bird flew away! it's gone! <assistant>i miss my birds! they",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Ben was playing at the park. He walked back to his bedroom. Where is Ben? <assistant>",
+            "generated_answer": "i looked under the slide! it's gone! <user>where did ben go? <assistant>i looked under the slide! it's gone! <user>i",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The fish was in the small bowl. The boy moved it to the big tank. Where is the fish? <assistant>",
+            "generated_answer": "i don't know! the fish was swimming! it's not safe. <user>i want to go back to the tank! it's so big",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The cow was in the barn. It walked out to the green field. Where is the cow? <assistant>",
+            "generated_answer": "i looked in the field! it's not there! <user>i looked in the field! it's not there! <assistant>oh no! i was",
+            "success": true
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Anna was in the bathroom. She walked into the hallway. Where is Anna? <assistant>",
+            "generated_answer": "i was in the bath! it's dark and scary! <user>it's okay, anna. i'm here. i just wanted to see the water. <assistant>",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The dog was on the porch. It ran into the deep woods. Where is the dog? <assistant>",
+            "generated_answer": "i don't know! i just wanted to see the dog! <user>the dog was so big! he was wagging his tail!",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The teacher was at the blackboard. She walked to her desk. Where is the teacher? <assistant>",
+            "generated_answer": "i looked and looked, but i can't find the teacher. <user>where did the teacher go? <assistant>maybe she was hiding! she said",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The boy was in the pool. He climbed out and went to the slide. Where is the boy? <assistant>",
+            "generated_answer": "i looked and looked, but i couldn't find it. <user>don't worry, i'll help you! let's look for the boy! <assistant>yay!",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Sarah was at the library. She walked to the bakery. Where is Sarah? <assistant>",
+            "generated_answer": "i was looking at the yummy cake! it's yummy! <user>i wanted to eat the cake! it's yummy! <assistant>okay, okay! let's",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The hammer was on the workbench. Dad moved it to the toolbox. Where is the hammer? <assistant>",
+            "generated_answer": "i looked in the box! it's gone! <user>i looked in the box! it's gone! <assistant>i looked in the box! it's",
+            "success": true
+        },
+        {
+            "category": "location",
+            "prompt": "<user> A squirrel was on the fence. It jumped to the roof. Where is the squirrel? <assistant>",
+            "generated_answer": "i saw a big bird! it was scary! <user>the bird was scary! it was scary! <assistant>the bird was just looking",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The shoes were under the bed. Mom put them in the closet. Where are the shoes? <assistant>",
+            "generated_answer": "i put them in the closet. it's so fun! <user>i put the shoes in the closet. it's so fun! <assistant>i put the shoes",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> Tim was in the living room. He walked into the dining room. Where is Tim? <assistant>",
+            "generated_answer": "i was playing with my toys! they're so fun! <user>i was playing with my toys! it's so fun! <assistant>let's play with the",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The plane was on the ground. It flew into the clouds. Where is the plane? <assistant>",
+            "generated_answer": "it's going to a faraway place! it's going to be a big adventure! <user>i want to go to the airplane! it's",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The horse was in the field. It ran into the stable. Where is the horse? <assistant>",
+            "generated_answer": "it's a big horse! it's a little bit scary. <user>but i want to see the horse! it's so big! <assistant>o",
+            "success": false
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The letter was on the table. I put it in the mailbox. Where is the letter? <assistant>",
+            "generated_answer": "i looked in the box! it's not there! <user>i looked in the box! it's not there! <assistant>i looked in the box",
+            "success": true
+        },
+        {
+            "category": "location",
+            "prompt": "<user> The spider was on the wall. It crawled behind the picture. Where is the spider? <assistant>",
+            "generated_answer": "it's hiding! it's hiding! <user>i want to see the spider! it's so shiny! <assistant>let's go see the spider!",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The boy put the ball in the box. He took the box to the park. What is in the box? <assistant>",
+            "generated_answer": "it's a surprise! it's a surprise! <user>i opened it! it's a surprise! <assistant>yay! let's play! it's so much fun! <user>",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Emma gave her red hat to Jake. What is Jake holding? <assistant>",
+            "generated_answer": "i found a shiny rock! it's so pretty! <user>i want to show it to my friends! can i see it? <assistant>no,",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The girl put a cookie in her pocket. She ran to the swings. What is in her pocket? <assistant>",
+            "generated_answer": "it's a surprise! it's a surprise! <user>i opened it! it's a surprise! <assistant>yay! thank you, lily! it's a surprise! <user>let's",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Dad gave a balloon to Sarah. What is Sarah holding? <assistant>",
+            "generated_answer": "it's a balloon! it's for a party! <user>can i play with it? <assistant>yes, you can! but be careful, okay? <user>",
+            "success": true
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The man put a coin in the jar. He hid the jar under the bed. What is in the jar? <assistant>",
+            "generated_answer": "it's a secret! it says 'no!' <user>i want to see the secret! can i open it? <assistant>no, no!",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The bird picked up a stick. It gave the stick to its friend. Who has the stick? <assistant>",
+            "generated_answer": "it's a stick! it's a stick! <user>it's a stick! i like sticks! <assistant>let's play with the stick! it's",
+            "success": true
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Tom put the letter in the envelope. He put the envelope in the bag. What is in the bag? <assistant>",
+            "generated_answer": "i put the letter in the envelope! it says 'please help me open the letter!' <user>okay, tom! i'll help",
+            "success": true
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The baker gave a roll to the dog. What does the dog have? <assistant>",
+            "generated_answer": "it says 'dog'! it makes a funny noise! <user>the dog is barking! it wants to play! <assistant>",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Lucy put her doll in the wagon. She pulled it to the house. What is in the wagon? <assistant>",
+            "generated_answer": "it's a surprise! let's pull it out! <user>yay! we can pull it together! <assistant>yay! we did it! it's fun!",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The king gave his crown to the queen. Who has the crown? <assistant>",
+            "generated_answer": "i was just playing with my blocks. it was fun! <user>i was playing with my blocks and it was fun! <assistant>it's time to",
+            "success": true
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The girl put a flower in the vase. She took the vase to her mom. What is in the vase? <assistant>",
+            "generated_answer": "it's a special vase! it has a pretty flower! <user>i put it in the vase. it will be a pretty vase!",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The pirate put the map in his hat. He put his hat on his head. What is in the hat? <assistant>",
+            "generated_answer": "it's a secret! like a magic wand! <user>i put my hat on my head and my head on my head! <assistant>",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Sam gave his blue marble to Leo. Who has the marble? <assistant>",
+            "generated_answer": "i lost it! i looked under the bed! <user>oh no! i can't find my marble! it's gone! <assistant>don't worry, lily!",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The woman put a ring in the velvet box. She hid the box in a drawer. What is in the box? <assistant>",
+            "generated_answer": "it's a surprise! it's a surprise! <user>i opened it! it's a surprise! <assistant>yay! thank you, auntie! <user>you're welcome,",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> A boy put a frog in his pocket. He ran to show his sister. What is in his pocket? <assistant>",
+            "generated_answer": "it's a secret! it says 'no!' <user>it's a secret! i want to see what it is! <assistant>let's look",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The chef gave a spoon to the waiter. Who has the spoon? <assistant>",
+            "generated_answer": "it's a big spoon! it makes a funny noise! <user>it's a little bit scary, but i want to see it! <assistant>o",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Jenny put a crayon in the cup. She put the cup on the shelf. What is in the cup? <assistant>",
+            "generated_answer": "it's a secret! it says 'please please' and 'thank you' and 'thank you!' <user>i want to give",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The bunny picked up a carrot. It gave the carrot to the girl. Who has the carrot? <assistant>",
+            "generated_answer": "i was just looking for a carrot! it's a carrot! <user>i found a carrot! it's so soft! <assistant>i found",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> Dad put the keys in the bowl. He moved the bowl to the counter. What is in the bowl? <assistant>",
+            "generated_answer": "it's a surprise! like a little mouse! <user>can i open the bowl? <assistant>yes, you can! you can open it",
+            "success": false
+        },
+        {
+            "category": "object_tracking",
+            "prompt": "<user> The teacher gave a sticker to the student. Who has the sticker? <assistant>",
+            "generated_answer": "it's a special sticker for the student's book. <user>i want to show the teacher my picture! <assistant>okay, let's",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Emma gave a toy to Jake. She was very happy. Who was happy? <assistant>",
+            "generated_answer": "i was playing with my dolly! it's so fun! <user>i was playing with my dolly! it's so fun! <assistant>you were so",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The dog barked at the mailman. He ran away. Who ran away? <assistant>",
+            "generated_answer": "i was just a little bit scared. it was a bad dog. <user>the mailman was back! he was just playing. <assistant>he was just",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Marc helped his dad. He was a good helper. Who was the helper? <assistant>",
+            "generated_answer": "he was a good helper! he helped us when we were little. <user>he was so happy! he helped too! <assistant>let's go home",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The teacher gave a book to the student. She was kind. Who was kind? <assistant>",
+            "generated_answer": "i was just a little bit scared. i was just a little scared. <user>the teacher said i was a little scared. <assistant>i was",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Sarah played a game with her brother. She won. Who won? <assistant>",
+            "generated_answer": "i won! you won! <user>i won! i won! i won! <assistant>you won! you won! <user>i won! i won! <assistant>oh no!",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Grandpa told a story to Sam. He listened quietly. Who listened? <assistant>",
+            "generated_answer": "i heard a loud noise! it was a big noise! <user>it's a big noise! it was loud! i was scared!",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The girl found a kitten. She gave it milk. Who gave the milk? <assistant>",
+            "generated_answer": "it's a kitty! it's so soft! <user>i like kitty! it's so soft! <assistant>let's give it a hug! <user>",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The elephant splashed the monkey. He got wet. Who got wet? <assistant>",
+            "generated_answer": "i was just playing in the mud. it's not nice to make a mess. <user>but i wanted to splash too! it's fun! <assistant>o",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Lily saw a bird. It was singing. What was singing? <assistant>",
+            "generated_answer": "it's a pretty bird! it sang a pretty song! <user>i want to sing too! can we sing with the bird? <assistant>yes,",
+            "success": true
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The king spoke to the boy. He was tall. Who was tall? <assistant>",
+            "generated_answer": "i'm a little boy. he was just playing with his blocks. <user>can i play too? <assistant>yes, you can! but be gent",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The boy saw a giant. He was scary. Who was scary? <assistant>",
+            "generated_answer": "i'm a little boy. he was just playing. <user>he was just playing with his blocks. he was not scared of him. <assistant>that's oka",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The nurse helped the lady. She was very kind. Who was kind? <assistant>",
+            "generated_answer": "i was just looking at the doctor. he was a little bit scared. <user>the doctor said he was very nice. he said he was",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The ball hit the window. It broke. What broke? <assistant>",
+            "generated_answer": "it's okay, lily. we can fix it! <user>yes! let's try to fix it! it's tricky! <assistant>yes! let's try again! it's",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Billy shared a snack with his friend. He was nice. Who was nice? <assistant>",
+            "generated_answer": "i was a little bit scared. i was just playing. <user>you were so brave! you were a good friend! <assistant>i was a",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The cat chased the mouse. It was fast. Who was fast? <assistant>",
+            "generated_answer": "i was just playing with the mouse. it was fun! <user>i was scared! the mouse was scared. <assistant>don't worry, little one. the mouse",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Mom gave a hug to the girl. She smiled. Who smiled? <assistant>",
+            "generated_answer": "i saw a big dog! he was big! <user>he was big! he was big! <assistant>he was big! he was",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The rain fell on the flower. It grew tall. What grew tall? <assistant>",
+            "generated_answer": "it's a big rain! it made the flower sad. <user>but i wanted to see the pretty flower! <assistant>oh no! the",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The doctor spoke to the man. He was worried. Who was worried? <assistant>",
+            "generated_answer": "i'm a little bit scared. i was just playing. <user>the doctor said i was a little scared. <assistant>the doctor said i was a",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> Sarah showed a drawing to Tom. She was proud. Who was proud? <assistant>",
+            "generated_answer": "i was just playing with my blocks. it was fun! <user>i was playing with my blocks. it was fun! <assistant>you were so brave,",
+            "success": false
+        },
+        {
+            "category": "pronoun",
+            "prompt": "<user> The sun shone on the ice. It turned to water. What turned to water? <assistant>",
+            "generated_answer": "it's a big puddle! it's like a little splash! <user>i like to splash! it's so fun! <assistant>let's splash! it's",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> One bird was on the fence. Two more joined it. How many total? <assistant>",
+            "generated_answer": "i want to fly too! it's fun! <user>but i want to fly too! it's too high! <assistant>oh no! i can't fly",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I have two red apples. You give me two green apples. How many total? <assistant>",
+            "generated_answer": "i have a red one! here you go! <user>yay! i give you two red apples! they're yummy! <assistant>y",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> The cat had three kittens. Then it had one more. How many now? <assistant>",
+            "generated_answer": "i have a kitty! a kitty! it's so soft! <user>i want to give the kitty a hug! <assistant>oka",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> There are four cookies. I eat one. How many are left? <assistant>",
+            "generated_answer": "i want a cookie! i have a cookie! <user>here you go! here you go! <assistant>yay! thank you, lily! you",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> One fish was swimming. Two more came. How many now? <assistant>",
+            "generated_answer": "i want to swim too! <user>i want to swim too! can we swim together? <assistant>yes, let's swim! it's fun! <user>y",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Four cars were there. One drove away. How many left? <assistant>",
+            "generated_answer": "i saw a big truck with a big truck! it was a big truck! <user>a big truck? what is it? <assistant>",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> The boy found two shells. Then he found one more. How many total? <assistant>",
+            "generated_answer": "i found a big one! it's so big! <user>i found a big one! it's so big! <assistant>i found a shell!",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> A dog has four legs. It loses two. How many legs now? <assistant>",
+            "generated_answer": "i have a big leg! it goes up and down! <user>i have a big leg! it goes up and",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> One sun and one moon are in the sky. How many total? <assistant>",
+            "generated_answer": "i want to see the stars! they are so bright! <user>i want to see the stars! they are so bright!",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I had three candies. I gave all three to you. How many left? <assistant>",
+            "generated_answer": "i gave one to you! it's so sweet! <user>thank you, thank you! i like candy! <assistant>you're welcome, little one. you are",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I have two blue stars and you have one gold star. How many stars together? <assistant>",
+            "generated_answer": "i have a blue one! it's my favorite! <user>i have a blue one! it's so pretty! <assistant>i have a blue one! it's",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Four flowers were in the garden. I picked one. How many are left? <assistant>",
+            "generated_answer": "i found a big red one! it's so pretty! <user>i found a yellow one! it's so pretty! <assistant>i found a yellow one! it's",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> A dog had two bones. He left two in the dirt. How many does he have now? <assistant>",
+            "generated_answer": "he has a shiny coin! he likes it! <user>the dog is big! he wants to play! <assistant>oh no! the",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Four children were playing. Three went home. How many are still there? <assistant>",
+            "generated_answer": "i don't know! i just wanted to play. <user>but i wanted to play! it's so fun! <assistant>okay, okay!",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I see one big plane and one small plane. How many total? <assistant>",
+            "generated_answer": "i see a big plane! it's so big! <user>i want to go on the plane! can we go on it? <assistant>",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> There were three eggs. Two broke. How many are not broken? <assistant>",
+            "generated_answer": "i don't know how to fix them! i want to be strong like the other eggs! <user>i want to be strong like the",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I have one toy and you have zero toys. How many total? <assistant>",
+            "generated_answer": "i have a big box! it has a door! <user>i want to open it! it's so shiny! <assistant>no, no!",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Three frogs were on a log. One more hopped on. How many now? <assistant>",
+            "generated_answer": "i found a big hole! it's so big! <user>i found a hole! it's so big! <assistant>i found a ho",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> I found three shells. I lost two. How many do I have? <assistant>",
+            "generated_answer": "i have a big shell! it's so big! <user>i found a shell! it's so big! <assistant>i found a shel",
+            "success": false
+        },
+        {
+            "category": "math",
+            "prompt": "<user> Two boys and two girls are eating. How many kids total? <assistant>",
+            "generated_answer": "my name is sam! i like to eat yummy food! <user>let's share our food! it's so good! <assistant>yay!",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy put the ice cream in the sun. What happened? <assistant>",
+            "generated_answer": "i put the ice cream in the freezer! it makes a big mess! <user>oh no! the ice cream is yucky! i",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The girl stepped in a deep puddle. How are her feet? <assistant>",
+            "generated_answer": "i stepped in a puddle! it's so fun! <user>wow! it's so big! i stepped in the puddle! <assistant>it's okay,",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The man forgot his umbrella in the rain. How is he? <assistant>",
+            "generated_answer": "it's okay, little one. the rain is gone now. <user>but i wanted to see the rainbow! it's so pretty! <assistant>maybe we can",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy touched the stove while it was on. What happened? <assistant>",
+            "generated_answer": "it's not good! it makes a loud noise! <user>oh no! the stove is broken! it made a big noise! <assistant>",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The light went out in the room. How is it now? <assistant>",
+            "generated_answer": "it's not a good light, lily. it makes me sad. <user>but i want to see the light! it's so bright! <assistant>o",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The bird built a nest out of twigs. What is the nest for? <assistant>",
+            "generated_answer": "it's a little bit scary, but it was fun! <user>i want to make a nest for the bird! <assistant>no, no! the bird",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The girl blew out the candles on her cake. What was she doing? <assistant>",
+            "generated_answer": "it's a big cake! it's for my birthday! <user>i want to blow it up! but it's too hard! <assistant>oh no!",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The man put a seed in the dirt and gave it water. What happened? <assistant>",
+            "generated_answer": "i put the seed in the dirt! it's getting bigger! <user>i put the seed in the dirt! it's getting bigger!",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The heavy rock was thrown into the pond. What did it do? <assistant>",
+            "generated_answer": "it was just a rock! it was just a rock. <user>i wanted to see the shiny rock! it's so shiny! <assistant>",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy didn't sleep all night. How does he feel? <assistant>",
+            "generated_answer": "i don't know how to make you feel better. <user>don't worry! i can make you feel better! <assistant>yay! i feel",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The boy dropped a glass bottle on the stone floor. What happened? <assistant>",
+            "generated_answer": "i dropped it! it fell down! <user>oh no! i broke it! i was sad. <assistant>don't cry, little one. i'll help you",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The sun was hot. The snowman felt warm. What happened? <assistant>",
+            "generated_answer": "i fell down! i fell down! <user>don't worry, mr. snowman! i will help you! <assistant>yay! thank you,",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> It was dark. The girl turned on the lamp. How is the room? <assistant>",
+            "generated_answer": "it's dark, sweetie. it's not safe. <user>but i want to see the light! it's so bright! <assistant>let's go see the light",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> Water fell from the sky. What is happening? <assistant>",
+            "generated_answer": "it's raining! it's making a big splash! <user>it's raining! i don't like rain! <assistant>it's raining! let's go inside!",
+            "success": true
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The man put bread in the toaster. What comes out? <assistant>",
+            "generated_answer": "it's a yummy toast! it makes a funny sound! <user>can i have a bite? <assistant>yes, you can! it's yummy!",
+            "success": true
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The girl blew the balloon until it went bang. What happened? <assistant>",
+            "generated_answer": "i blew it so hard! it went into the hole! <user>oh no! the balloon went into the hole! it was",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The hungry boy ate a sandwich. How does he feel? <assistant>",
+            "generated_answer": "i don't know how to make it taste good! <user>i want to make it better! i want to make it taste good! <assistant>o",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The car ran out of gas. What did it do? <assistant>",
+            "generated_answer": "it's okay, little one. we can get it back! <user>i found a car! it's red and shiny! <assistant>yay! let's drive",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The plant got no water for a long time. What happened? <assistant>",
+            "generated_answer": "i lost my plant! it's gone! <user>oh no! i miss my plant! it's sad. <assistant>don't worry, lily! we'll find it!",
+            "success": false
+        },
+        {
+            "category": "common_sense",
+            "prompt": "<user> The wind blew against the house of cards. What happened? <assistant>",
+            "generated_answer": "i fell down! it was a big wind! <user>oh no! i fell down! it was scary! <assistant>don't worry,",
+            "success": true
+        }
+    ]
+}
