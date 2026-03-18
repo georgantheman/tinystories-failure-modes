@@ -1,5 +1,7 @@
-datasets
+torch>=2.0.0
 transformers
-tokenizers
-torch
+datasets
+numpy
+pandas
+matplotlib
 tqdm
